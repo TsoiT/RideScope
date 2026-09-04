@@ -1,0 +1,26 @@
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+RideScope-startup.log
+.ridescope-settings.json
+
+# 用户骑行数据与平台下载内容不得提交
+records/*
+!records/.gitkeep
+
+# 课程作业报告可能包含个人信息；仓库只保留程序说明书
+docs/*课程设计报告*.docx
+docs/*软件工程设计实践报告*.docx
